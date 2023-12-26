@@ -36,7 +36,6 @@ const DataTable = ({ rows, columns, slug, setRealRows }: Props) => {
     setRealRows((rows: GridRowsProp) => {
       return rows.filter((item) => item.id !== id);
     });
-    alert('deleted');
   };
   const actionColumn: GridColDef = {
     field: 'action',
