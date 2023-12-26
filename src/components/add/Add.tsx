@@ -118,7 +118,6 @@ const Add = (props: Props) => {
       ];
     });
     props.setOpen(false);
-    alert('hi');
   };
 
   const handleStateUpdate = (e: React.ChangeEvent<HTMLInputElement>) => {
